@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox fx:controller="com.example.uts_old.controller.TambahController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="291.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label text="ID" />
+      <TextField fx:id="txtTambahIDPeserta" />
+      <Label text="Nama Peserta" />
+      <TextField fx:id="txtTambahNamaPeserta" />
+      <Label text="Umur Peserta" />
+      <TextField fx:id="txtTambahUmurPeserta" />
+      <Label text="Keahlian Peserta" />
+      <TextField fx:id="txtTambahKeahlianPeserta" />
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="btnTambahOKPeserta" mnemonicParsing="false" onAction="#onActionTambahOKPeserta" prefHeight="26.0" prefWidth="158.0" text="OK" />
+            <Button fx:id="btnTambahCancelPeserta" mnemonicParsing="false" onAction="#onActionTambahCancelPeserta" prefHeight="26.0" prefWidth="167.0" text="CANCEL" />
+         </children>
+      </HBox>
+   </children>
+</VBox>
