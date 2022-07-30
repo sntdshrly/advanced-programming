@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.latihan_mandiri.controller.SecondController">
+   <children>
+      <Label layoutX="86.0" layoutY="67.0" text="ID MAHASISWA" />
+      <Label layoutX="69.0" layoutY="105.0" text="NAMA MAHASISWA" />
+      <Label layoutX="69.0" layoutY="143.0" text="ALAMAT MAHASISWA" />
+      <Label layoutX="69.0" layoutY="175.0" text="NAMA DOSEN WALI" />
+      <TextField fx:id="txtAddUpIDMahasiswa" layoutX="232.0" layoutY="65.0" />
+      <TextField fx:id="txtAddUpNamaMahasiswa" layoutX="232.0" layoutY="101.0" />
+      <TextField fx:id="txtAddUpAlamatMahasiswa" layoutX="232.0" layoutY="139.0" />
+      <Button fx:id="btnProsesAddUp" layoutX="171.0" layoutY="264.0" mnemonicParsing="false" onAction="#onActionProses" text="PROSES" />
+      <Button fx:id="btnCancelAddUp" layoutX="261.0" layoutY="264.0" mnemonicParsing="false" onAction="#onActionCancel" text="CANCEL" />
+      <ComboBox fx:id="comboAddUpDosenWali" layoutX="231.0" layoutY="179.0" prefWidth="150.0" />
+   </children>
+</Pane>
